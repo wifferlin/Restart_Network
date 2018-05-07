@@ -9,11 +9,7 @@
 ###	address xxx.xxx.xxx.xxx
 ###	netmask 255.255.255.0
 ###	gateway xxx.xxx.xxx.xxx
-
-#http://note.drx.tw/2008/02/ubuntu-dns.html
-#setting the DNS server
-##sudo gedit /etc/resolv.conf
-###nameserver  8.8.8.8
+###     dns_nameserver 8.8.8.8
 
 
 ##sudo chmod 777 restart_network.sh
