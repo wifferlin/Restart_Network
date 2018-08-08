@@ -21,7 +21,7 @@
 catch=`ping google.com -c1|grep 100% | awk '{print $1}'`
 if [ "$catch" != "" ]
 then
-  echo fishloveloly | sudo -S /etc/init.d/networking restart
+  echo [fillin_your_password] | sudo -S /etc/init.d/networking restart
   date >>log
 fi
 
